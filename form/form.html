@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="block">
+        <form id="form" action="./server_form.php" method="post">
+            <div class="form-line"><label for="firstname" class="label required-field">Firstname</label>
+                <input type="text" pattern="[a-zA-Z]*" id="firstname" name="firstname" class="input" minlength="2"
+                    maxlength="25" required placeholder="John"></div>
+            <div class="form-line"><label for="lastname" class="label required-field">Lastname</label>
+                <input type="text" pattern="[a-zA-Z]*" id="lastname" name="lastname" class="input" minlength="2"
+                    maxlength="25" required placeholder="Dudley"></div>
+            <div class="form-line"><label for="dateOfBirth" class="label required-field">Bithdate</label>
+                <input type="date" name="dateOfBirth" id="dateOfBirth" class="input" required></div>
+            <div class="form-line"><label for="numberOfCars" class="label">Number of cars</label>
+                <input type="number" name="numberOfCars" id="numberOfCars" class="input" min="0"></div>
+            <div class="form-line"><label for="password" class="label">Password</label>
+                <input type="password" name="password" id="password" class="input"></div>
+            <div class="form-line"><input type="checkbox" name="checkbox" id="checkbox" class="input" checked disabled>
+                <label for="checkbox" class="label">Important Agreement</label></div>
+            <div class="form-line"><button type="submit" class="button">Send info</button></div>
+        </form>
+    </div>
+    <a id="anchor"
+        href="https://docs.google.com/spreadsheets/d/1KsKlkMPISFBTIZ-vXogCZVn6xamDkZx1mhOzBRC230Y/edit?usp=sharing">Form
+        TC</a>
+</body>
+
+</html>
