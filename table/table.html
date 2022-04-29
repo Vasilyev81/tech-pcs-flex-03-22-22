@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+    <style>
+        body,
+        html {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #container {
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #header {
+            font-size: 20px;
+            margin-top: 10px;
+            margin-bottom: 40px;
+        }
+
+        .title-container {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        #period {
+            float: right;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .cell {
+            border: 2px solid black;
+            width: 33%;
+            height: 26px;
+        }
+
+        .col-title {
+            text-align: left;
+            font-size: 19px;
+            font-weight: 80;
+            background-color: rgb(248, 248, 255);
+        }
+
+        .small {
+            font-size: 14px;
+        }
+
+        .mid {
+            font-size: 17px;
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="header"><b>Name:&#xA0</b>Artem Oganesyan</div>
+        <div class="title-container">
+            <span><b>Income:</b></span>
+            <span id="period">Budget for: <u><i>January 2021</i></u></span>
+        </div>
+        <table id="income">
+            <tr>
+                <th class="cell col-title"><i>&nbspName</i></th>
+                <th class="cell col-title"><i>&nbspExpected</i></th>
+                <th class="cell col-title"><i>&nbspActual</i></th>
+            </tr>
+            <tr>
+                <td class="cell small">&nbspSalary</td>
+                <td class="cell small">&nbsp$ 10,000</td>
+                <td class="cell small">&nbsp$ 2,000</td>
+            </tr>
+            <tr>
+                <td class="cell mid">&nbspTotal:</td>
+                <td class="cell small">&nbsp$ 10,000</td>
+                <td class="cell small">&nbsp$ 2,000</td>
+            </tr>
+        </table>
+
+        <div class="title-container"><span><b>Expenses:</b></span></div>
+        <table id="expenses">
+            <tr>
+                <th class="cell col-title"><i>&nbspName</i></th>
+                <th class="cell col-title"><i>&nbspExpected</i></th>
+                <th class="cell col-title"><i>&nbspActual</i></th>
+            </tr>
+            <tr>
+                <td class="cell small">&nbspRent</td>
+                <td class="cell small">&nbsp$ 1,000</td>
+                <td class="cell small">&nbsp$ 1,000</td>
+            </tr>
+            <tr>
+                <td class="cell small">&nbspFood</td>
+                <td class="cell small">&nbsp$ 500</td>
+                <td class="cell small">&nbsp$ 550</td>
+            </tr>
+            <tr>
+                <td class="cell small">&nbspCar</td>
+                <td class="cell small">&nbsp$ 200</td>
+                <td class="cell small">&nbsp$ 190</td>
+            </tr>
+            <tr>
+                <td class="cell mid">Total:&nbsp</td>
+                <td class="cell small">&nbsp$ 1,700</td>
+                <td class="cell small">&nbsp$ 1,740</td>
+            </tr>
+            <tr>
+                <td class="cell mid">Actual balance:&nbsp</td>
+                <td class="cell small" colspan="2">&nbsp$ 260</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
